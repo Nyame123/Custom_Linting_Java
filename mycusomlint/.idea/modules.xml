@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-374682598/app.iml" filepath="$PROJECT_DIR$/.idea/modules/-374682598/app.iml" group="uber-truck/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1269800134/core.iml" filepath="$PROJECT_DIR$/.idea/modules/1269800134/core.iml" group="uber-truck/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1115061883/customer.iml" filepath="$PROJECT_DIR$/.idea/modules/-1115061883/customer.iml" group="uber-truck/customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/538367887/driver.iml" filepath="$PROJECT_DIR$/.idea/modules/538367887/driver.iml" group="uber-truck/driver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/58801343/easy-sync.iml" filepath="$PROJECT_DIR$/.idea/modules/58801343/easy-sync.iml" group="uber-truck/easy-sync" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1499808364/empowercomponents.iml" filepath="$PROJECT_DIR$/.idea/modules/1499808364/empowercomponents.iml" group="uber-truck/empowercomponents" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/717399842/login.iml" filepath="$PROJECT_DIR$/.idea/modules/717399842/login.iml" group="uber-truck/login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-564234017/map_route.iml" filepath="$PROJECT_DIR$/.idea/modules/-564234017/map_route.iml" group="uber-truck/map_route" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1710323684/mastersync.iml" filepath="$PROJECT_DIR$/.idea/modules/1710323684/mastersync.iml" group="uber-truck/mastersync" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/793094609/models.iml" filepath="$PROJECT_DIR$/.idea/modules/793094609/models.iml" group="uber-truck/models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mycusomlint.iml" filepath="$PROJECT_DIR$/.idea/modules/mycusomlint.iml" group="uber-truck/mycusomlint" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742439185/pendingupload.iml" filepath="$PROJECT_DIR$/.idea/modules/742439185/pendingupload.iml" group="uber-truck/pendingupload" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/724042991/sugar.iml" filepath="$PROJECT_DIR$/.idea/modules/724042991/sugar.iml" group="uber-truck/sugar" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/910424947/supplier.iml" filepath="$PROJECT_DIR$/.idea/modules/910424947/supplier.iml" group="uber-truck/supplier" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-929859448/uber-truck.iml" filepath="$PROJECT_DIR$/.idea/modules/-929859448/uber-truck.iml" group="uber-truck" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/725862506/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/725862506/utils.iml" group="uber-truck/utils" />
+    </modules>
+  </component>
+</project>

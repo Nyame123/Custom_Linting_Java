@@ -1,0 +1,24 @@
+//apply plugin: 'com.android.library'
+apply plugin: 'java-library'
+
+dependencies {
+    def androidToolsVersion = '26.5.0'
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    testImplementation 'junit:junit:4.12'
+
+    compileOnly "com.android.tools.lint:lint-api:$androidToolsVersion"
+    compileOnly "com.android.tools.lint:lint-checks:$androidToolsVersion"
+
+    testImplementation "com.android.tools.lint:lint:$androidToolsVersion"
+    testImplementation "com.android.tools.lint:lint-tests:$androidToolsVersion"
+    testImplementation "com.android.tools:testutils:$androidToolsVersion"
+
+}
+
+jar {
+    manifest {
+        // Only use the "-v2" key here if your checks have been updated to the
+        // new 3.0 APIs (including UAST)
+        attributes("Lint-Registry-v2": "com.bisapp.mycusomlint.EditTextRegistry")
+    }
+}

@@ -1,0 +1,4 @@
+include ':mybuttonLintPart3'
+include ':myCustomLintButton'
+include ':app',':mycusomlint'
+rootProject.name = "MyCustomLint"

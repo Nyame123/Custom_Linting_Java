@@ -1,0 +1,20 @@
+apply plugin: 'java-library'
+
+dependencies {
+
+    def androidToolsVersion = '26.5.0'
+    testImplementation 'junit:junit:4.12'
+
+    compileOnly "com.android.tools.lint:lint-api:$androidToolsVersion"
+    compileOnly "com.android.tools.lint:lint-checks:$androidToolsVersion"
+
+    testImplementation "com.android.tools.lint:lint:$androidToolsVersion"
+    testImplementation "com.android.tools.lint:lint-tests:$androidToolsVersion"
+    testImplementation "com.android.tools:testutils:$androidToolsVersion"
+}
+
+jar{
+    manifest{
+        attributes("Lint-Registry-v2":"com.ecomtrading.mycustomlintbutton.CustomButtonLintRegistry")
+    }
+}

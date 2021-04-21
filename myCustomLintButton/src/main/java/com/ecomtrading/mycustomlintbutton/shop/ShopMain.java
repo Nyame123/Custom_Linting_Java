@@ -88,9 +88,9 @@ public class ShopMain {
 
             yearlyAmt += quarterly[j];
             if (name.equals(Shop.HIGHSTREET_SHOP)){
-                highStreetAnnualSales += yearlyAmt;
+                highStreetAnnualSales += quarterly[j];
             }else {
-                mallAnnualSales += yearlyAmt;
+                mallAnnualSales += quarterly[j];
             }
 
 

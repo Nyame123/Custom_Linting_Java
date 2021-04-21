@@ -6,7 +6,7 @@ public class GradingSystemMain {
 
         GradingSystemMain gradingSystem = new GradingSystemMain();
         //creating a student record
-        Student info = new Student(14,20,80);
+        Student info = new Student(14,25,100);
         gradingSystem.willGetCertificate(info);
     }
 
